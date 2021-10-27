@@ -1,13 +1,10 @@
-import React from "react";
-import reactDom from "react-dom";
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-const link = React.createElement('a', {href:'react.org'}, 'дичь')
-console.log(link);
-
-reactDom.render(link, document.getElementById('root'))
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
