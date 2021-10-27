@@ -23,15 +23,15 @@
   border-radius: 50%;
 }
 
-/* .online {
-  composes: status;
+.online {
+  /* composes: status; */
   background-color: greenyellow;
 }
 
 .offline {
-  composes: status;
+  /* composes: status; */
   background-color: red;
-} */
+}
 
 .avatar {
   border-radius: 5px;
