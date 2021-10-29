@@ -5,10 +5,10 @@ import styles from './Profile.module.css';
 const Profile = ({ name, tag, location, avatar, stats }) => (
   <div className={styles.profile}>
     <div className={styles.description}>
-      <img className={styles.avatar} src={avatar} alt={name} />
+      <img src={avatar} alt={avatar} className={styles.avatar} />
       <p className={styles.name}>{name}</p>
       <p className={styles.tag}>@{tag}</p>
-      <p className={styles.location}>{location}</p>
+      <p className={styles.location}>{location} </p>
     </div>
 
     <ul className={styles.stats}>
@@ -32,11 +32,11 @@ Profile.propTypes = {
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  avatar: PropTypes.string.isRequired,
+  avatar: PropTypes.string,
   stats: PropTypes.shape({
-    followers: PropTypes.number.isRequired,
-    views: PropTypes.number.isRequired,
-    likes: PropTypes.number.isRequired,
+    followers: PropTypes.number,
+    views: PropTypes.number,
+    likes: PropTypes.number,
   }).isRequired,
 };
 

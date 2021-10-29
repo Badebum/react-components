@@ -1,6 +1,7 @@
 .statistic {
   margin: 30px auto;
   max-width: 400px;
+  border-radius: 0 0 20px 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -21,14 +22,15 @@
 }
 
 .item {
+  border-radius: 40%;
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding: 20px;
   align-items: center;
   width: calc(100% / 4);
   border: 1px solid #bbbdc0;
   border-right: none;
-  background-color: blueviolet;
+  background: linear-gradient(0deg, rgb(142, 168, 240), rgb(0, 27, 100));
 }
 
 .item:last-child {

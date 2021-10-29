@@ -15,7 +15,7 @@
 
 .avatar {
   border-radius: 100%;
-  width: 150px;
+  width: 200px;
   border: 1px solid #efefef;
 }
 
@@ -31,7 +31,7 @@
   font-weight: 500px;
   margin-top: 15px;
   margin-bottom: 0;
-  color: blueviolet;
+  color: rgb(24, 67, 185);
 }
 
 .location {
@@ -39,7 +39,7 @@
   font-weight: 500px;
   margin-top: 5px;
   margin-bottom: 0;
-  color: blueviolet;
+  color: rgb(24, 67, 185);
 }
 
 .label {
@@ -51,7 +51,8 @@
   list-style: none;
   display: flex;
   border-top: 1px solid white;
-  background-color: blueviolet;
+  background: linear-gradient(0deg, rgb(142, 168, 240), rgb(0, 27, 100));
+
   margin-bottom: 0;
   margin-top: 15px;
   padding: 0;

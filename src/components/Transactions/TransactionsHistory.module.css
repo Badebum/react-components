@@ -6,14 +6,16 @@
   border-spacing: 0;
   text-align: center;
   min-width: 400px;
+
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .head {
-  background: blueviolet;
+  background: rgb(12, 56, 150);
   color: white;
   text-shadow: 0 1px 1px #2d2020;
   padding: 10px 20px;
+  border-radius: 15px 0 0 0;
 }
 
 .head,
@@ -31,7 +33,7 @@
 .column {
   padding: 10px 20px;
   color: #ffffff;
-  background: #91a9f8;
+  background: linear-gradient(0deg, rgb(35, 81, 207), rgb(6, 64, 224));
 }
 
 .row .column:last-child {
