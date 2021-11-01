@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Jacques Gluke",
+    "tag": "jgluke",
+    "location": "Ocho, china",
+    "avatar": "https://cdn.pixabay.com/photo/2019/12/11/21/12/portrait-4689312_960_720.jpg",
+    "stats": {
+      "followers": 603,
+      "views": 827,
+      "likes": 308
+    },
+    "age": 33
+  },
+
+  {
+    "id": 2,
+    "name": "Natan Luke",
+    "tag": "luke",
+    "location": "Rios, Jamaica",
+    "avatar": "https://cdn.pixabay.com/photo/2019/11/06/10/42/fire-4605807_960_720.jpg",
+    "stats": {
+      "followers": 503,
+      "views": 427,
+      "likes": 108
+    },
+    "age": 24
+  },
+  {
+    "id": 3,
+    "name": "Adam Jemi",
+    "tag": "jgle",
+    "location": "newzeland, ochov",
+    "avatar": "https://cdn.pixabay.com/photo/2019/06/20/11/49/dog-4286921_960_720.jpg",
+    "stats": {
+      "followers": 560,
+      "views": 482,
+      "likes": 130
+    },
+    "age": 23
+  },
+  {
+    "id": 4,
+    "name": "Jorg Bootom",
+    "tag": "jluke",
+    "location": "oRios, USA",
+    "avatar": "https://cdn.pixabay.com/photo/2020/01/25/08/07/outdoors-4791955_960_720.jpg",
+    "stats": {
+      "followers": 5603,
+      "views": 4827,
+      "likes": 1308
+    },
+    "age": 43
+  }
+]
